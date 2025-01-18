@@ -5,10 +5,10 @@ A Help Desk Application é uma solução robusta para o gerenciamento de chamado
 Esta aplicação foi desenvolvida utilizando Node.js, TypeScript, e MongoDB para garantir escalabilidade, segurança e desempenho.
 ### Recursos Principais
 * Funcionalidades de Usuário
-* Registro de usuários com níveis de permissão:
-- Usuário: Pode abrir e acompanhar chamados.
-- Técnico: Pode gerenciar os chamados atribuídos a ele.
-- Administrador: Possui controle total sobre usuários e chamados.
+### Registro de usuários com níveis de permissão:
+* Usuário: Pode abrir e acompanhar chamados.
+* Técnico: Pode gerenciar os chamados atribuídos a ele.
+* Administrador: Possui controle total sobre usuários e chamados.
 * Autenticação e gerenciamento de sessão.
 ### Gerenciamento de Chamados
 * Criação, atualização e encerramento de chamados.
