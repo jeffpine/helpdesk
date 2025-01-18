@@ -27,8 +27,10 @@ Persistência dos dados usando MongoDB, com estrutura organizada para usuários 
 * TypeScript: Adicionado para tipagem estática e segurança no desenvolvimento.
 * Express.js: Framework para construção de APIs RESTful.
 * MongoDB: Banco de dados NoSQL, acessado via Mongoose.
+* MongoDBCompass: Para acesso ao banco de dados via dashboard.
 * Session Management: Gerenciado com express-session para persistência de dados de autenticação.
 * Google Maps API: Utilizada para rastreamento da localização dos técnicos.
+* PostMan: Para testar as rotas da aplicação.
 
 ```mermaid
 classDiagram
