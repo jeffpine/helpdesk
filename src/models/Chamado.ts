@@ -19,7 +19,7 @@ export enum StatusChamado {
     dataAbertura: { type: Date, default: Date.now },
     status: { type: String, enum: Object.values(StatusChamado), default: StatusChamado.ABERTO },
     usuarioId: { type: mongoose.Schema.Types.ObjectId, ref: "Usuario", required: true },
-    tecnicoId: { type: mongoose.Schema.Types.ObjectId, ref: "Usuario" },
+    tecnicoId: { type: mongoose.Schema.Types.ObjectId, ref: "Tecnico" },
   });
   
   export default mongoose.model<IChamado>("Chamado", ChamadoSchema);
